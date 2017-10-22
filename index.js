@@ -29,7 +29,6 @@ bot.setWebHook(`${url}/bot${TOKEN}`);
 
 //=========================== messaggi
 
-
 // Matches "/echo [whatever]"
 bot.onText(/\/echo (.+)/, (msg, match) => {
   // 'msg' is the received Message from Telegram
