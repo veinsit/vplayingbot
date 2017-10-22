@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const TOKEN = process.env.TELEGRAM_TOKEN
 
 const options = {
-    polling: true,
+    // polling: true, WebHook and Polling are mutually exclusive
     webHook: {
       // Port to which you should bind is assigned to $PORT variable
       // See: https://devcenter.heroku.com/articles/dynos#local-environment-variables
