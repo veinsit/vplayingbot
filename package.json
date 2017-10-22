@@ -1,7 +1,7 @@
 {
   "name": "vanesplayingbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "playing",
   "engines": {
     "node": "6.11.3"
   },
